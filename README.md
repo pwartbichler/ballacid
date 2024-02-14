@@ -24,28 +24,25 @@ Ensure you have the following installed on your system:
    ```bash
    cd backend
    python3 -m venv venv
-    source venv/bin/activate
+   source venv/bin/activate
 
 2. Install the required Python packages
-    ```pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 3. Start the development server
-    ```python3 -m venv venv
+    ```bash
+    python3 -m venv venv
     source venv/bin/activate
     python3 backend/app.py
 
 4. Run the app
-   ```python app.py
-
+   ```bash
+   python app.py
 
 ### Frontend setup
 
-```cd frontend
-```npm install
-```npm run dev
-
-Your frontend app should now be running on http://localhost:3000, and the backend is accessible through the specified port (default is port 5000 for Flask).
-
-### Deployment
-
-The project is automatically deployed on Vercel when changes are pushed to the main branch. For details on configuration and the deployment process, refer to the Vercel documentation.
+```bash
+cd frontend
+npm install
+npm run dev
