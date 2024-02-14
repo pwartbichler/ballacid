@@ -35,7 +35,7 @@ Ensure you have the following installed on your system:
     python3 backend/app.py
 
 4. Run the app
-    ```python app.py
+   ```python app.py
 
 
 ### Frontend setup
